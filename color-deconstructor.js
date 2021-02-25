@@ -1,7 +1,18 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+function colorDeconstructor(color1){
+  if (color1 === 'orange'){
+    return 'red and yellow';
+  }
+  else if (color1 === 'purple'){
+    return 'red and blue';
+  }
+  else if (color1 === 'green'){
+    return 'blue and yellow';
+  }
 
+}
 
 
 
