@@ -9,10 +9,6 @@ function isValidPrimary(color1){
     return false;
   }
   }
-   
-
- let color = isValidPrimary('red');
- color
 
 
 // Our setup code here. Don't touch!
