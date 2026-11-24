@@ -1,15 +1,9 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-function isValidPrimary(color1){
-  if (color1 === 'red' || color1 === 'blue' || color1 === 'yellow'){
-    return true;
-  }
-  else{
-    return false;
-  }
-  }
-
+function isValidPrimary(color) {
+  return color === 'red' || color === 'blue' || color === 'yellow';
+}
 
 // Our setup code here. Don't touch!
 if(typeof isValidPrimary === 'undefined') {

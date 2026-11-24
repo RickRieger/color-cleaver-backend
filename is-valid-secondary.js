@@ -1,16 +1,9 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-
-function isValidSecondary(color1){
-  if (color1 === 'orange' || color1 === 'purple' || color1 === 'green'){
-    return true;
-  }
-  else{
-    return false;
-  }
-  }
-
+function isValidSecondary(color) {
+  return color === 'orange' || color === 'purple' || color === 'green';
+}
 
 // Our setup code here. Don't touch!
 if(typeof isValidSecondary === 'undefined') {

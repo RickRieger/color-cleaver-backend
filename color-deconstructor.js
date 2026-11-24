@@ -1,19 +1,16 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-function colorDeconstructor(color1){
-  if (color1 === 'orange'){
+// The two primary colors that make a secondary color. Other colors return undefined.
+function colorDeconstructor(color) {
+  if (color === 'orange') {
     return 'red and yellow';
-  }
-  else if (color1 === 'purple'){
+  } else if (color === 'purple') {
     return 'red and blue';
-  }
-  else if (color1 === 'green'){
+  } else if (color === 'green') {
     return 'blue and yellow';
   }
-
 }
-
 
 
 // Our setup code here. Don't touch!
